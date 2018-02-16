@@ -1,4 +1,4 @@
 def reverse_each_word(greeting)
-  greeting.split(" ")
-
+  reversegreeting = greeting.split(" ")
+  reversegreeting.each do |word|
 end
