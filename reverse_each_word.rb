@@ -1,6 +1,7 @@
 def reverse_each_word(greeting)
   reversegreeting = greeting.split(" ")
-  reversegreeting.collect do |word|
+  reversed = reversegreeting.collect do |word|
     word.reverse
 end
+ reversed.join(" ")
 end
